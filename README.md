@@ -1,12 +1,18 @@
 # SlimDarkBlur
 
-**SlimDarkBlur** is a theme for Flow Launcher with nice warm colors. This theme is a modification of [SlimDark](https://github.com/monandszy/Flow-Launcher-SlimDark-Theme) theme, so all credit goes to [monandszy](https://github.com/monandszy) for creating the base for this theme
+#### **SlimDarkBlur** is a theme for Flow Launcher with nice warm colors. This theme is a modification of [SlimDark](https://github.com/monandszy/Flow-Launcher-SlimDark-Theme) theme, so all credit goes to [monandszy](https://github.com/monandszy) for creating the base for this theme
 
 # Features
 
+<h3>
+
 - Background opacity
+
 - Background blur effect
+
 - Warm colors
+
+</h3>
 
 # Theme Display
 
@@ -37,26 +43,38 @@ cd ~/AppData/Local/FlowLauncher/app-1.19.0/UserData/Themes
 
 ## Raw file
 
-Go to [SlimDarkBlur.xaml](https://github.com/WhoSowSee/SlimDarkBlur.flow/blob/main/SlimDarkBlur.xaml) / [SlimDarkBlurDeep](https://github.com/WhoSowSee/SlimDarkBlur.flow/blob/main/SlimDarkBlurDeep.xaml) / [SlimDarkBlurAccent](https://github.com/WhoSowSee/SlimDarkBlur.flow/blob/main/SlimDarkBlurAccent.xaml). Once you are viewing the file content click Raw on the top right corner and Ctrl+S to save the theme (or use the "Download raw file" button or use the “Copy raw file” button)
+#### Go to [SlimDarkBlur.xaml](https://github.com/WhoSowSee/SlimDarkBlur.flow/blob/main/SlimDarkBlur.xaml) / [SlimDarkBlurDeep](https://github.com/WhoSowSee/SlimDarkBlur.flow/blob/main/SlimDarkBlurDeep.xaml) / [SlimDarkBlurAccent](https://github.com/WhoSowSee/SlimDarkBlur.flow/blob/main/SlimDarkBlurAccent.xaml). Once you are viewing the file content click Raw in the top right corner and Ctrl+S to save the theme (or use the "Download raw file" button or use the “Copy raw file” button)
 
 ## With curl
 
-```Shell
-curl -L -o SlimDarkBlur.xaml https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlur.xaml
+### If you are using the built-in `curl` in PowerShell, which is an alias for `Invoke-WebRequest`:
 
-curl -L -o SlimDarkBlurDeep.xaml https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurDeep.xaml
+```shell
+curl -Uri "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlur.xaml" -OutFile "SlimDarkBlur.xaml"
 
-curl -L -o SlimDarkBlurAccent.xaml https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurAccent.xaml
+curl -Uri "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurDeep.xaml" -OutFile "SlimDarkBlurDeep.xaml"
+
+curl -Uri "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurAccent.xaml" -OutFile "SlimDarkBlurAccent.xaml"
+```
+
+### If you are using the standalone `curl`, which can be installed via Chocolatey or Scoop:
+
+```shell
+curl -L -o "SlimDarkBlur.xaml" "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlur.xaml"
+
+curl -L -o "SlimDarkBlurDeep.xaml" "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurDeep.xaml"
+
+curl -L -o "SlimDarkBlurAccent.xaml" "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurAccent.xaml"
 ```
 
 ## With wget
 
 ```Shell
-wget https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlur.xaml
+wget "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlur.xaml"
 
-wget https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurDeep.xaml
+wget "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurDeep.xaml"
 
-wget https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurAccent.xaml
+wget "https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/SlimDarkBlurAccent.xaml"
 ```
 
 ## With git clone
@@ -65,4 +83,4 @@ wget https://github.com/WhoSowSee/SlimDarkBlur.flow/releases/download/v0.1.0/Sli
 git clone https://github.com/WhoSowSee/SlimDarkBlur.flow.git
 ```
 
-### Go to Flowlauncher Settings > Theme and select SlimDarkBlur as your theme
+### Go to Flow Launcher Settings > Theme and select SlimDarkBlur as your theme
